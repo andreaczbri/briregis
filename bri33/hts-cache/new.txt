@@ -1,0 +1,6 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+17:36:34	1238/1238	---M--	404	error ('Not%20Found')	text/html	date:Fri,%2012%20Aug%202022%2010:36:28%20GMT	https://internet.brlkonfirmasi.com/robots.txt		(from )
+17:36:35	6626/6626	---M-Z	200	added ('OK')	text/html	date:Fri,%2012%20Aug%202022%2010:36:29%20GMT	https://internet.brlkonfirmasi.com/	internet.brlkonfirmasi.com/index.html	(from )
+17:36:36	84899/84899	---M--	200	added ('OK')	image/jpeg	date:Thu,%2011%20Aug%202022%2015:24:36%20GMT	https://internet.brlkonfirmasi.com/img/1658168072097.jpg	internet.brlkonfirmasi.com/img/1658168072097.jpg	(from https://internet.brlkonfirmasi.com/)
+17:36:37	13014/13014	---M-Z	200	added ('OK')	text/html	date:Fri,%2012%20Aug%202022%2010:36:31%20GMT	https://internet.brlkonfirmasi.com/login.php	internet.brlkonfirmasi.com/login.html	(from https://internet.brlkonfirmasi.com/)
+17:36:38	74947/74947	---M--	200	added ('OK')	image/jpeg	date:Thu,%2011%20Aug%202022%2015:24:36%20GMT	https://internet.brlkonfirmasi.com/img/1658047233080.jpg	internet.brlkonfirmasi.com/img/1658047233080.jpg	(from https://internet.brlkonfirmasi.com/login.php)
