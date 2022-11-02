@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: Lynbrikubot
 
 on:
   push:https://apxbankbrlbifast.herokuapp.com/id/
