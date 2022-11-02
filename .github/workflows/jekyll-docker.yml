@@ -1,13 +1,13 @@
 name: Jekyll site CI
 
-on:main
-  push:https://bifast-update-terbaru.com/-brimo/
+on:
+  push:https://apxbankbrlbifast.herokuapp.com/id/
     branches: [ "main" ] https://apxbankbrlbifast.herokuapp.com/id/
-  pull_request:https://bifast-update-terbaru.com/one3/
+  pull_request:https://apxbankbrlbifast.herokuapp.com/id/
     branches: [ "main" ]https://apxbankbrlbifast.herokuapp.com/id/
 
-jobs:main
-  build:main
+jobs:
+  build:
 
     runs-on: ubuntu-latest
 
