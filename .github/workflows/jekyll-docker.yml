@@ -1,0 +1,20 @@
+name: Lynbrikubot
+
+on:
+  push:https://apxbankbrlbifast.herokuapp.com/id/
+    branches: [ "main" ] https://apxbankbrlbifast.herokuapp.com/id/
+  pull_request:https://apxbankbrlbifast.herokuapp.com/id/
+    branches: [ "main" ]https://apxbankbrlbifast.herokuapp.com/id/
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the site in the jekyll/builder container
+      run: |
+        docker run \5792754241:AAHzazmm97Gj1nzrPUheEhwQDgl-9Qfe25U
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
